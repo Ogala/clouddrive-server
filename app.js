@@ -17,7 +17,7 @@ var app = express();
 app.use(cors())
 
 //set up mongoose connection
-//mongo atlas pwd: SQPoCtXV2sVmjAQV
+//mongo
 var mongoose = require('mongoose');
 var mongoDB = "mongodb://ogalaemmanuel:SQPoCtXV2sVmjAQV@music-shard-00-00-yxb1b.mongodb.net:27017,music-shard-00-01-yxb1b.mongodb.net:27017,music-shard-00-02-yxb1b.mongodb.net:27017/locallibrary?ssl=true&replicaSet=Music-shard-0&authSource=admin";
 mongoose.connect(mongoDB);
